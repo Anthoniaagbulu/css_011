@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.site{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr ;
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    background-image: url("images/sneakers1.jpg");
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
+
+}
+.pic{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+
+}
+section{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 200%;
+    height: 60vh;
+}
+.item1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+figure{
+    padding: 3px;
+    width: 10%;
+    height: 10vh;
+    border: 1px solid white;}
+p1{
+    color:orange
+}
+p{
+    color: rgb(114, 106, 106);
+}
+del{
+    color: rgb(114, 106, 106);
+    
+}
+a1{
+    background-color: orange;
+    height: 10vh;
+    width: 50%;
+    
+}
+.comment-btn{
+    color: orange;
+    width: 50%;
+    border: none;
+    text-align: center;
+}
+.alp{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.c{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.z{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.subhead{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    color: rgb(122, 110, 110);
+}
+nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.headsite{
+    width: 30%;
+    text-align: center;
+}
+p{
+    color: rgb(114, 106, 106);
+}
+@media screen and( max-width:600px){
+    .site{
+        grid-template-columns: 1fr;
+    }
+}
